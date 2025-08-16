@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Biblioteca Digital</title>
+  <link rel="stylesheet" href="biblioteca.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- Botones del menú decorados con iconos -->
+      <button onclick="location.href='index.html'">🏠 Inicio</button>
+      <button onclick="location.href='Biblioteca.html'">📚 Biblioteca</button>
+      <button onclick="location.href='Foro.html'">💬 Foro</button>
+      <button onclick="location.href='AcercaDe.html'">ℹ️ Acerca de</button>
+      <button onclick="location.href='Contacto.html'">📞 Contacto</button>
+    </nav>
+  </header>
+
+  <main>
+    <h1>📚 Biblioteca Digital</h1>
+
+    <!-- Formulario de subida -->
+    <form id="formArchivo">
+      <input type="text" id="nombreArchivo" placeholder="Nombre del archivo" required>
+      <input type="file" id="archivo" required>
+      <button type="submit">Subir archivo</button>
+    </form>
+
+    <!-- Barra de progreso -->
+    <div id="progresoContainer">
+      <div id="progresoBar"></div>
+    </div>
+
+    <!-- Buscador -->
+    <input type="text" id="buscar" placeholder="Buscar archivo...">
+
+    <!-- Lista de archivos -->
+    <div id="listaArchivos"></div>
+  </main>
+
+  <script src="biblioteca.js"></script>
+</body>
+</html>

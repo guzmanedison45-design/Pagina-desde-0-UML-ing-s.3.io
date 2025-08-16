@@ -1,0 +1,100 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  background: #e0f7f1; /* verde claro */
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #0a5d8e; /* azul oscuro */
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+  margin-bottom: 15px;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Botones generales */
+button {
+  background: #5cb85c; /* verde */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #4cae4c;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Menú de navegación */
+nav {
+  margin-bottom: 20px;
+}
+
+nav button {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #5cb85c, #4cae4c);
+  color: white;
+  border: 1px solid #3e8e41;
+  transition: all 0.3s;
+}
+
+nav button:hover {
+  background: linear-gradient(to bottom, #4cae4c, #5cb85c);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+}
+
+/* Barra de progreso */
+#progresoContainer {
+  width: 100%;
+  background: #cce5ff; /* celeste claro */
+  border-radius: 5px;
+  margin: 10px 0;
+  display: none;
+}
+
+#progresoBar {
+  width: 0%;
+  height: 20px;
+  background: #4CAF50;
+  border-radius: 5px;
+}
+
+/* Lista de archivos */
+#listaArchivos {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.archivo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  background: #f0f8ff; /* celeste muy claro */
+  border-radius: 5px;
+}
+
+.eliminar {
+  color: red;
+  cursor: pointer;
+  float: right;
+}

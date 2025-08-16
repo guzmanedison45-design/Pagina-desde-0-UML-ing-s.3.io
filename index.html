@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Uni Lutero</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f9fc;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    /* Header */
+    header {
+      background: #3791af;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 150px;
+      display: block; 
+      margin: 0 auto 10px;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    /* Menú con botones usando paleta de colores */
+    nav {
+      margin: 20px 0;
+    }
+
+    nav button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      color: white;
+      transition: all 0.3s;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    /* Colores para cada botón usando paleta */
+    nav button.inicio { background: #3791af; }       /* azul header */
+    nav button.biblioteca { background: #97ddf2; color: #333; } /* celeste nav */
+    nav button.foro { background: #4fb0c6; }        /* azul intermedio */
+    nav button.acerca { background: #66c2d5; }      /* celeste más claro */
+    nav button.contacto { background: #3791af; }    /* azul header */
+
+    nav button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      opacity: 0.9;
+    }
+
+    /* Contenido principal */
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      margin-bottom: 10px;
+      color: #3791af;
+    }
+
+    main p {
+      margin-bottom: 20px;
+    }
+
+    /* Footer */
+    footer {
+      background: #3791af;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <img src="img/Logo de la Universidad.png" alt="Logo Universidad">
+    <h1>Universidad Martin Lutero</h1>
+  </header>
+
+  <!-- Menú con botones decorativos -->
+  <nav>
+    <button class="inicio" onclick="location.href='index.html'">🏠 Inicio</button>
+    <button class="biblioteca" onclick="location.href='Biblioteca.html'">📚 Biblioteca</button>
+    <button class="foro" onclick="location.href='Foro.html'">💬 Foro</button>
+    <button class="acerca" onclick="location.href='AcercaDe.html'">ℹ️ Acerca de</button>
+    <button class="contacto" onclick="location.href='Contacto.html'">📞 Contacto</button>
+  </nav>
+
+  <!-- Contenido -->
+  <main>
+    <h2>Bienvenido a U.F.E.C.A</h2>
+    <p>
+      Foros guardan nuestro saber cada día.  
+      Estructuras guían la labor con armonía.  
+      Compartir ideas enciende la mente.  
+      Ayudar a otros hace el sueño presente.
+    </p>
+
+    <h2>Novedades</h2>
+    <p>Aquí puedes compartir noticias, artículos o cualquier contenido importante de la universidad.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    Biblioteca WEB &copy; 2025
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
